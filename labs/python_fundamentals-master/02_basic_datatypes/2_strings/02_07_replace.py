@@ -7,4 +7,8 @@ Symbol input: #
 Result: #ore python progra##ing please
 
 '''
+string = 'more python programming please'
+
+print(string.replace(string[0],"#"))
+
 

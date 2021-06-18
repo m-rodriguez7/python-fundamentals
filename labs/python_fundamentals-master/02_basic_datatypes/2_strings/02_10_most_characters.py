@@ -11,3 +11,10 @@ CHALLENGE: Can you edit to script to print only the string with the most charact
            into the topic "Conditionals" to solve this challenge.
 
 '''
+string1 = input("Enter first string: ")
+string2 = input("Enter second string: ")
+string3 = input("Enter third string: ")
+
+print(f'The lenght of {string1} is {len(string1)}')
+print(f'The lenght of {string2} is {len(string2)}')
+print(f'The lenght of {string3} is {len(string3)}')
