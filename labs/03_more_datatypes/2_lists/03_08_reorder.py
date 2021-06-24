@@ -7,3 +7,9 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+num_list = []
+print("Enter 10 intergers")
+for num in range(10):
+    num_list.append(int(input("Enter number: ")))
+
+print(num_list[1:10:2] + num_list[-2:-11:-2])

@@ -6,3 +6,13 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+user_input = "hello"
+result = {}
+
+for x in user_input:
+    if x in result:
+        result[x] += 1
+    else:
+        result[x] = 1
+print(result)
+
