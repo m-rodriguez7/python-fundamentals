@@ -17,13 +17,13 @@ result = {}
 
 for key,value in dict_1.items():
     if key in result:
-        result[key] += dict_1.get(key)
+        result[key] += value
     else:
         result[key] = value
 
 for key,value in dict_2.items():
     if key in result:
-        result[key] += dict_2.get(key)
+        result[key] += value
     else:
         result[key] = value
 print(result)
