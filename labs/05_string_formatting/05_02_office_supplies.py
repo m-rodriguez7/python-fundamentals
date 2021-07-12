@@ -25,3 +25,8 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+
+for item in office:
+    lastname = ''.join(item.get('full_name').split()[1])
+    firstname = ''.join(item.get('full_name').split()[0])
+    print(f"{lastname}, {firstname}    Favorite Office Supply: {item.get('item').capitalize()}")

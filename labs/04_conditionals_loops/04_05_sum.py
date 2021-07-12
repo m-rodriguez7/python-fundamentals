@@ -7,3 +7,12 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+startnum = int(input("Start of number sequence: "))
+endnum = int(input("End of number sequence: "))
+
+sum = 0
+
+for n in range(startnum,endnum+1):
+    sum += n
+
+print(f"Sum of sequence is {sum}")
